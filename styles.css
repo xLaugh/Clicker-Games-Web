@@ -1,0 +1,183 @@
+body {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+#clickButton {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #f0cf48;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #ebc015;
+}
+  
+#clickButton:hover {background-color: #dfb51e}
+  
+#clickButton:active {
+    background-color: #ebc127;
+    box-shadow: 0 5px #f5d44f;
+    transform: translateY(4px);
+}
+
+#saveButton {
+    border: none;
+    color: white;
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#saveButton{
+    background-color: white;
+    color: black;
+    border: 2px solid #e4dfdf;
+}
+  
+#saveButton:hover {background-color: #e7e7e7;}
+
+#topScoresTable {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-collapse: collapse;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#topScoresTable th, #topScoresTable td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#topScoresTable th {
+    background-color: #FF6347;
+    color: #fff;
+}
+
+#topScoresTable tr:hover {
+    background-color: #f5f5f5;
+}
+
+#buyManualClick, #buyAutoClicker {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 6px #2980b9;
+    margin: 10px;
+}
+
+#buyManualClick:hover, #buyAutoClicker:hover {
+    background-color: #2980b9;
+}
+
+#buyManualClick:active, #buyAutoClicker:active {
+    background-color: #2980b9;
+    box-shadow: 0 3px #2980b9;
+    transform: translateY(4px);
+}
+
+#logoutButton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #e74c3c;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 6px #c0392b;
+    margin: 10px;
+}
+
+#logoutButton:hover {
+    background-color: #c0392b;
+}
+
+#logoutButton:active {
+    background-color: #c0392b;
+    box-shadow: 0 3px #c0392b;
+    transform: translateY(4px);
+}
+
+#chat-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+}
+
+#chat-header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#chat-messages-container {
+    height: 200px;
+    overflow-y: scroll;
+    padding: 10px;
+}
+
+#chat-form {
+    display: flex;
+    padding: 10px;
+}
+
+#chat-input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#chat-form button {
+    padding: 8px 12px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#chat-form button:hover {
+    background-color: #2980b9;
+}
